@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				gold: {
+					DEFAULT: '#D4AF37',
+					light: '#F4CE70',
+					dark: '#AA8C2C',
+				},
+				industrial: {
+					dark: '#121212',
+					DEFAULT: '#1E1E1E',
+					light: '#2A2A2A',
 				}
 			},
 			borderRadius: {
@@ -84,11 +94,62 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-out': {
+					'0%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'parallax-slow': {
+					'0%': { transform: 'translateY(0)' },
+					'100%': { transform: 'translateY(-5%)' }
+				},
+				'parallax-medium': {
+					'0%': { transform: 'translateY(0)' },
+					'100%': { transform: 'translateY(-10%)' }
+				},
+				'parallax-fast': {
+					'0%': { transform: 'translateY(0)' },
+					'100%': { transform: 'translateY(-15%)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'fade-out': 'fade-out 0.5s ease-out forwards',
+				'float': 'float 6s ease-in-out infinite',
+				'parallax-slow': 'parallax-slow 1s linear forwards',
+				'parallax-medium': 'parallax-medium 1s linear forwards',
+				'parallax-fast': 'parallax-fast 1s linear forwards'
+			},
+			backgroundImage: {
+				'hero-pattern': 'linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.9)), url("/hero-bg.jpg")',
+				'industrial-pattern': 'linear-gradient(rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.95)), url("/industrial-bg.jpg")',
+				'gold-gradient': 'linear-gradient(90deg, #D4AF37 0%, #F4CE70 50%, #D4AF37 100%)',
 			}
 		}
 	},
