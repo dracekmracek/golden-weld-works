@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import { Cog, Wrench, Workflow, BarChart3 } from "lucide-react";
 
@@ -65,30 +64,30 @@ const Hero = () => {
         ))}
       </div>
       
-      <div ref={parallaxRef} className="parallax-container container mx-auto px-4 md:px-6 z-10 relative">
+      <div ref={parallaxRef} className="container mx-auto px-4 md:px-6 z-10 relative">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="parallax-layer" data-depth="0.1">
+            <div className="parallax-layer relative" data-depth="0.1">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 relative z-20">
                 <span className="text-white glow-text relative z-10">Dokonalé </span>
-                <span className="gold-text glow-text-gold relative z-10">svařování</span>
+                <span className="text-gold glow-text-gold relative z-10">svařování</span>
                 <br />
                 <span className="text-white glow-text relative z-10">pro váš</span>
                 <br />
-                <span className="gold-text glow-text-gold relative z-10">průmysl</span>
+                <span className="text-gold glow-text-gold relative z-10">průmysl</span>
                 {/* Glowing underline effect */}
                 <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-gold/0 via-gold to-gold/0 blur-sm"></div>
               </h1>
             </div>
             
-            <div className="parallax-layer" data-depth="0.2">
+            <div className="parallax-layer relative" data-depth="0.2">
               <p className="text-lg md:text-xl text-gray-300 mb-8 glow-text-subtle">
                 Společnost zabývající se dodáváním kovových komponentů do průmyslu od roku 2007. 
                 Zpracováváme malé i velké série v profesionální kvalitě.
               </p>
             </div>
             
-            <div className="parallax-layer" data-depth="0.3">
+            <div className="parallax-layer relative" data-depth="0.3">
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="#services" 
@@ -108,7 +107,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="parallax-layer" data-depth="0.4">
+          <div className="parallax-layer relative" data-depth="0.4">
             <div className="glass p-6 md:p-10 rounded-xl backdrop-blur-lg border border-gold/20 shadow-2xl relative overflow-hidden group">
               {/* Glowing corner effects */}
               <div className="absolute -top-10 -left-10 w-20 h-20 bg-gold/20 blur-2xl rounded-full group-hover:scale-150 transition-transform duration-700"></div>
@@ -130,7 +129,7 @@ const Hero = () => {
                   <h3 className="text-xl font-bold text-white mb-2">Profesionální přístup</h3>
                   <p className="text-gray-400 text-center">Kvalita a spolehlivost ve všech aspektech našich služeb</p>
                 </div>
-                <div className="bg-gold-gradient p-[1px] rounded-lg group/item">
+                <div className="bg-gradient-to-r from-gold via-gold/90 to-gold p-[1px] rounded-lg group/item">
                   <div className="flex flex-col items-center p-6 bg-industrial-dark rounded-lg h-full transform hover:scale-105 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gold mb-2">Od roku 2007</h3>
                     <p className="text-gray-400 text-center">Léta zkušeností a stovky spokojených zákazníků</p>
