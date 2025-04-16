@@ -1,10 +1,14 @@
-
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import ReactFlagsSelect from "react-flags-select";
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
+  const { language, setLanguage } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +25,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleLanguageChange = (code: string) => {
+    setLanguage(code);
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -36,30 +44,40 @@ const Navbar = () => {
           </a>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-10">
+          <div className="hidden md:flex items-center space-x-8">
             <a
               href="#about"
               className="text-white hover:text-gold transition-colors duration-300"
             >
-              O nás
+              {t('navbar.about')}
             </a>
             <a
               href="#services"
               className="text-white hover:text-gold transition-colors duration-300"
             >
-              Služby
+              {t('navbar.services')}
             </a>
-            <a
-              href="#contact"
-              className="text-white hover:text-gold transition-colors duration-300"
-            >
-              Kontakt
-            </a>
+            
+            {/* Jazykový přepínač pro desktop */}
+            <div className="language-selector flex items-center">
+              <ReactFlagsSelect
+                selected={language}
+                onSelect={handleLanguageChange}
+                countries={["CZ", "DE", "GB"]}
+                customLabels={{ CZ: "CZ", DE: "DE", GB: "EN" }}
+                placeholder={<Globe size={18} className="text-gold" />}
+                selectButtonClassName="flag-select-button"
+                className="language-selector-container"
+                optionsSize={14}
+                fullWidth={false}
+              />
+            </div>
+            
             <a
               href="#contact"
               className="px-4 py-2 border border-gold text-gold hover:bg-gold hover:text-industrial-dark transition-all duration-300 rounded-md"
             >
-              Kontaktujte nás
+              {t('navbar.contact')}
             </a>
           </div>
 
@@ -85,28 +103,38 @@ const Navbar = () => {
                 className="text-white hover:text-gold transition-colors duration-300 py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                O nás
+                {t('navbar.about')}
               </a>
               <a
                 href="#services"
                 className="text-white hover:text-gold transition-colors duration-300 py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Služby
+                {t('navbar.services')}
               </a>
-              <a
-                href="#contact"
-                className="text-white hover:text-gold transition-colors duration-300 py-2"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Kontakt
-              </a>
+              
+              {/* Jazykový přepínač pro mobil */}
+              <div className="language-selector flex items-center py-2">
+                <span className="text-white mr-2">{t('navbar.language')}:</span>
+                <ReactFlagsSelect
+                  selected={language}
+                  onSelect={handleLanguageChange}
+                  countries={["CZ", "DE", "GB"]}
+                  customLabels={{ CZ: "CZ", DE: "DE", GB: "EN" }}
+                  placeholder={<Globe size={18} className="text-gold" />}
+                  selectButtonClassName="flag-select-button"
+                  className="language-selector-container"
+                  optionsSize={14}
+                  fullWidth={false}
+                />
+              </div>
+              
               <a
                 href="#contact"
                 className="px-4 py-2 border border-gold text-gold hover:bg-gold hover:text-industrial-dark transition-all duration-300 rounded-md text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Kontaktujte nás
+                {t('navbar.contact')}
               </a>
             </div>
           </div>

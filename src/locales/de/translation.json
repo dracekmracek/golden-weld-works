@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontaktieren Sie uns",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Industrieschweißen",
+    "subtitle": "Effizientes und präzises Schweißen",
+    "description": "Wir bieten professionelle Schweißdienste für Industrieprojekte mit Schwerpunkt auf Qualität und Zuverlässigkeit.",
+    "cta": "Mehr erfahren",
+    "intro_text": "Perfektes",
+    "for_your": "für Ihre",
+    "industry": "Industrie",
+    "services_info": {
+      "welding": "Präzisionsschweißen",
+      "welding_desc": "Schweißen von Stahl, Edelstahl und Aluminium mit MIG-, TIG- und Flammenschweißverfahren",
+      "locksmith": "Schlosserarbeiten",
+      "locksmith_desc": "Umfassende Schlosserarbeiten, einschließlich Bohren, Reiben und Gewindeschneiden",
+      "approach": "Professioneller Ansatz",
+      "approach_desc": "Qualität und Zuverlässigkeit in allen Aspekten unserer Dienstleistungen",
+      "since": "Seit 2007",
+      "experience_desc": "Jahre der Erfahrung und Hunderte zufriedener Kunden"
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Schöberle Industry",
+    "experienced_team": "Erfahrenes Team",
+    "paragraph1": "Wir sind ein spezialisiertes Team von Fachleuten mit umfangreicher Erfahrung im Bereich Industrieschweißen und Metallbearbeitung.",
+    "paragraph2": "Unser Unternehmen konzentriert sich auf die Bereitstellung hochwertiger Dienstleistungen in den Bereichen Schweißen, Bearbeitung und industrielle Fertigung.",
+    "paragraph3": "Durch den Einsatz moderner Technologien und Verfahren gewährleisten wir höchste Qualität und Präzision bei der Umsetzung Ihrer Projekte.",
+    "experience": "Erfahrung",
+    "experience_desc": "Mehr als 15 Jahre Erfahrung im Bereich Industrieschweißen",
+    "professionalism": "Professionalität",
+    "professionalism_desc": "Ein Team hochqualifizierter Fachleute und Schweißer",
+    "cooperation": "Wir kooperieren mit führenden Unternehmen der Branche",
+    "years_of_experience": "Jahre Erfahrung in der Lieferung hochwertiger Metallkomponenten",
+    "values": {
+      "title": "Unsere Werte",
+      "quality": "Qualität",
+      "precision": "Präzision",
+      "reliability": "Zuverlässigkeit",
+      "innovation": "Innovation"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Was wir anbieten",
+    "description": "Wir bieten umfassende Dienstleistungen im Bereich Industrieschweißen und Metallbearbeitung.",
+    "who_we_are": "Wer wir sind",
+    "items": [
+      {
+        "title": "MIG/MAG-Schweißen",
+        "description": "MIG/MAG-Schweißen für verschiedene Metalltypen und Stärken."
+      },
+      {
+        "title": "TIG-Schweißen",
+        "description": "Präzises TIG-Schweißen mit hochwertigen Verbindungen."
+      },
+      {
+        "title": "Buckelschweißen",
+        "description": "Buckelschweißen - Aufschweißen von Muttern auf Ausschnitte."
+      },
+      {
+        "title": "Herstellung von Schweißkonstruktionen",
+        "description": "Komplette Herstellung von Schweißkonstruktionen nach Kundenanforderungen."
+      },
+      {
+        "title": "CNC-Bearbeitung",
+        "description": "Präzise CNC-Bearbeitung von Metallkomponenten."
+      },
+      {
+        "title": "Service und Wartung",
+        "description": "Service und Wartung von Industrieanlagen."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir sind für Sie da",
+    "description": "Haben Sie Fragen oder Interesse an unseren Dienstleistungen? Zögern Sie nicht, uns zu kontaktieren.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "send": "Senden",
+      "success": "Nachricht wurde erfolgreich gesendet!",
+      "error": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "address": {
+      "title": "Adresse",
+      "street": "Industriestraße 123",
+      "city": "Prag 5",
+      "zip": "150 00",
+      "country": "Tschechische Republik"
+    },
+    "phone": "Telefon",
+    "email": "E-Mail"
+  },
+  "footer": {
+    "rights": "© 2023 Schöberle Industry. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Geschäftsbedingungen"
+  }
+} 

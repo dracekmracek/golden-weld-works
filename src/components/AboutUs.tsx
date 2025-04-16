@@ -1,8 +1,11 @@
-
 import { Users } from "lucide-react";
 import { ScrollAnimation } from "./ScrollAnimation";
+import { useTranslation } from "react-i18next";
+import Translate from "./ui/Translate";
 
 const AboutUs = () => {
+  const { t } = useTranslation();
+  
   return (
     <section id="about" className="py-20 bg-industrial-dark relative">
       {/* Background overlay with industrial pattern */}
@@ -15,29 +18,27 @@ const AboutUs = () => {
             <div className="inline-block mb-6">
               <div className="flex items-center bg-industrial p-2 rounded-lg">
                 <Users className="h-5 w-5 text-gold mr-2" />
-                <span className="text-gold-light font-medium">Kdo jsme</span>
+                <span className="text-gold-light font-medium">{t('services.who_we_are')}</span>
               </div>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-white">Zkušený tým </span>
-              <span className="gold-text">průmyslových profesionálů</span>
+              <span className="text-white">{t('about.experienced_team')} </span>
+              <span className="gold-text">{t('about.subtitle')}</span>
             </h2>
             
             <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-              Společnost zabývající se dodáváním kovových komponentů do průmyslu od roku 2007. 
-              Zpracováváme malé (i kusové) série, ale také velké série v tisících kusech. 
-              Díly dodáváme jako hotový výrobek, ale také děláme dílčí operace.
+              <Translate i18nKey="about.paragraph1" />
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
               <div className="glass p-4">
-                <h3 className="text-gold text-xl font-semibold mb-2">Zkušenosti</h3>
-                <p className="text-gray-300">Více než 15 let zkušeností v oboru průmyslového svařování</p>
+                <h3 className="text-gold text-xl font-semibold mb-2">{t('about.experience')}</h3>
+                <p className="text-gray-300">{t('about.experience_desc')}</p>
               </div>
               <div className="glass p-4">
-                <h3 className="text-gold text-xl font-semibold mb-2">Profesionalita</h3>
-                <p className="text-gray-300">Tým vysoce kvalifikovaných odborníků a svářečů</p>
+                <h3 className="text-gold text-xl font-semibold mb-2">{t('about.professionalism')}</h3>
+                <p className="text-gray-300">{t('about.professionalism_desc')}</p>
               </div>
             </div>
             
@@ -52,7 +53,7 @@ const AboutUs = () => {
                 ))}
               </div>
               <div className="ml-6">
-                <p className="text-white">Spolupracujeme s předními firmami v oboru</p>
+                <p className="text-white">{t('about.cooperation')}</p>
               </div>
             </div>
           </ScrollAnimation>
@@ -66,7 +67,7 @@ const AboutUs = () => {
                 <div className="w-full h-full flex items-center justify-center">
                   <img 
                     src="/placeholder.svg" 
-                    alt="Průmyslové svařování" 
+                    alt={t('about.title')}
                     className="w-3/4 h-3/4 object-contain opacity-90"
                   />
                 </div>
@@ -76,7 +77,7 @@ const AboutUs = () => {
                 <div className="flex items-start">
                   <span className="text-4xl font-bold text-gold mr-2">15+</span>
                   <p className="text-white">
-                    let zkušeností v dodávání kvalitních kovových komponentů
+                    {t('about.years_of_experience')}
                   </p>
                 </div>
               </div>

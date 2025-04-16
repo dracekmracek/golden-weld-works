@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "about": "O nás",
+    "services": "Služby",
+    "contact": "Kontaktujte nás",
+    "language": "Jazyk"
+  },
+  "hero": {
+    "title": "Průmyslové svařování",
+    "subtitle": "Efektivní a precizní svařování",
+    "description": "Nabízíme profesionální svářečské služby pro průmyslové projekty s důrazem na kvalitu a spolehlivost.",
+    "cta": "Zjistit více",
+    "intro_text": "Dokonalé",
+    "for_your": "pro váš",
+    "industry": "průmysl",
+    "services_info": {
+      "welding": "Precizní svařování",
+      "welding_desc": "Svařování oceli, nerezi a hliníku metodami MIG, TIG a plamenem",
+      "locksmith": "Zámečnické práce",
+      "locksmith_desc": "Komplexní zámečnické práce včetně vrtání, vystružování a závitování",
+      "approach": "Profesionální přístup",
+      "approach_desc": "Kvalita a spolehlivost ve všech aspektech našich služeb",
+      "since": "Od roku 2007",
+      "experience_desc": "Léta zkušeností a stovky spokojených zákazníků"
+    }
+  },
+  "about": {
+    "title": "O nás",
+    "subtitle": "Schöberle Industry",
+    "experienced_team": "Zkušený tým",
+    "paragraph1": "Jsme specializovaný tým odborníků s bohatými zkušenostmi v oboru průmyslového svařování a obrábění kovů.",
+    "paragraph2": "Naše společnost se zaměřuje na poskytování vysoce kvalitních služeb v oblasti svařování, obrábění a průmyslové výroby.",
+    "paragraph3": "S využitím moderních technologií a postupů zajišťujeme nejvyšší kvalitu a přesnost při realizaci vašich projektů.",
+    "experience": "Zkušenosti",
+    "experience_desc": "Více než 15 let zkušeností v oboru průmyslového svařování",
+    "professionalism": "Profesionalita",
+    "professionalism_desc": "Tým vysoce kvalifikovaných odborníků a svářečů",
+    "cooperation": "Spolupracujeme s předními firmami v oboru",
+    "years_of_experience": "let zkušeností v dodávání kvalitních kovových komponentů",
+    "values": {
+      "title": "Naše hodnoty",
+      "quality": "Kvalita",
+      "precision": "Preciznost",
+      "reliability": "Spolehlivost",
+      "innovation": "Inovace"
+    }
+  },
+  "services": {
+    "title": "Naše služby",
+    "subtitle": "Co nabízíme",
+    "description": "Poskytujeme komplexní služby v oblasti průmyslového svařování a obrábění kovů.",
+    "who_we_are": "Kdo jsme",
+    "items": [
+      {
+        "title": "MIG/MAG svařování",
+        "description": "Svařování metodou MIG/MAG pro různé typy kovů a tloušťky."
+      },
+      {
+        "title": "TIG svařování",
+        "description": "Precizní TIG svařování s vysokou kvalitou spojů."
+      },
+      {
+        "title": "Výpuskové svařování",
+        "description": "Výpuskové svařování – navařování matic na výpalky."
+      },
+      {
+        "title": "Výroba svařovaných konstrukcí",
+        "description": "Kompletní výroba svařovaných konstrukcí dle požadavků zákazníka."
+      },
+      {
+        "title": "CNC obrábění",
+        "description": "Přesné CNC obrábění kovových součástí."
+      },
+      {
+        "title": "Servis a údržba",
+        "description": "Servis a údržba průmyslových zařízení."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Jsme tu pro vás",
+    "description": "Máte dotaz nebo zájem o naše služby? Neváhejte nás kontaktovat.",
+    "form": {
+      "name": "Jméno",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "message": "Zpráva",
+      "send": "Odeslat",
+      "success": "Zpráva byla úspěšně odeslána!",
+      "error": "Při odesílání zprávy došlo k chybě. Zkuste to prosím znovu."
+    },
+    "address": {
+      "title": "Adresa",
+      "street": "Průmyslová 123",
+      "city": "Praha 5",
+      "zip": "150 00",
+      "country": "Česká republika"
+    },
+    "phone": "Telefon",
+    "email": "E-mail"
+  },
+  "footer": {
+    "rights": "© 2023 Schöberle Industry. Všechna práva vyhrazena.",
+    "privacy": "Ochrana osobních údajů",
+    "terms": "Obchodní podmínky"
+  }
+} 

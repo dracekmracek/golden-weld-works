@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Industrial Welding",
+    "subtitle": "Efficient and precise welding",
+    "description": "We offer professional welding services for industrial projects with emphasis on quality and reliability.",
+    "cta": "Learn More",
+    "intro_text": "Perfect",
+    "for_your": "for your",
+    "industry": "industry",
+    "services_info": {
+      "welding": "Precision Welding",
+      "welding_desc": "Welding of steel, stainless steel and aluminum using MIG, TIG and flame methods",
+      "locksmith": "Locksmith Work",
+      "locksmith_desc": "Comprehensive locksmith work including drilling, reaming and threading",
+      "approach": "Professional Approach",
+      "approach_desc": "Quality and reliability in all aspects of our services",
+      "since": "Since 2007",
+      "experience_desc": "Years of experience and hundreds of satisfied customers"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Schöberle Industry",
+    "experienced_team": "Experienced Team",
+    "paragraph1": "We are a specialized team of professionals with extensive experience in industrial welding and metal machining.",
+    "paragraph2": "Our company focuses on providing high-quality services in welding, machining and industrial manufacturing.",
+    "paragraph3": "Using modern technologies and procedures, we ensure the highest quality and precision in implementing your projects.",
+    "experience": "Experience",
+    "experience_desc": "More than 15 years of experience in industrial welding",
+    "professionalism": "Professionalism",
+    "professionalism_desc": "Team of highly qualified experts and welders",
+    "cooperation": "We cooperate with leading companies in the industry",
+    "years_of_experience": "years of experience in delivering quality metal components",
+    "values": {
+      "title": "Our Values",
+      "quality": "Quality",
+      "precision": "Precision",
+      "reliability": "Reliability",
+      "innovation": "Innovation"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "What We Offer",
+    "description": "We provide comprehensive services in industrial welding and metal machining.",
+    "who_we_are": "Who We Are",
+    "items": [
+      {
+        "title": "MIG/MAG Welding",
+        "description": "MIG/MAG welding for various types of metals and thicknesses."
+      },
+      {
+        "title": "TIG Welding",
+        "description": "Precise TIG welding with high-quality joints."
+      },
+      {
+        "title": "Projection Welding",
+        "description": "Projection welding - welding nuts onto cut parts."
+      },
+      {
+        "title": "Welded Structure Manufacturing",
+        "description": "Complete manufacturing of welded structures according to customer requirements."
+      },
+      {
+        "title": "CNC Machining",
+        "description": "Precise CNC machining of metal components."
+      },
+      {
+        "title": "Service and Maintenance",
+        "description": "Service and maintenance of industrial equipment."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here for you",
+    "description": "Do you have a question or interest in our services? Don't hesitate to contact us.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send",
+      "success": "Message was successfully sent!",
+      "error": "There was an error sending the message. Please try again."
+    },
+    "address": {
+      "title": "Address",
+      "street": "Industrial 123",
+      "city": "Prague 5",
+      "zip": "150 00",
+      "country": "Czech Republic"
+    },
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "© 2023 Schöberle Industry. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  }
+} 
