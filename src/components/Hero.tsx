@@ -69,11 +69,11 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="parallax-layer" data-depth="0.1">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 relative">
-                <span className="text-white relative z-10 glow-text">Dokonalé </span>
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 relative z-20">
+                <span className="text-white glow-text relative z-10">Dokonalé </span>
                 <span className="gold-text glow-text-gold relative z-10">svařování</span>
                 <br />
-                <span className="text-white relative z-10 glow-text">pro váš</span>
+                <span className="text-white glow-text relative z-10">pro váš</span>
                 <br />
                 <span className="gold-text glow-text-gold relative z-10">průmysl</span>
                 {/* Glowing underline effect */}
