@@ -103,7 +103,7 @@
   }
   
   html {
-    scroll-padding-top: 80px; /* For smooth scrolling to anchor links with fixed header */
+    scroll-padding-top: 80px;
   }
 
   .glass {
@@ -112,6 +112,18 @@
 
   .gold-text {
     @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .glow-text-gold {
+    text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  }
+
+  .glow-text-subtle {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   }
 
   .section-title {
@@ -133,5 +145,14 @@
     width: 100%;
     height: 100%;
     transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
