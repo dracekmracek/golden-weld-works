@@ -8,7 +8,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-industrial-dark overflow-hidden pt-20 md:pt-24">
+    <section className="relative min-h-screen flex items-center justify-center bg-industrial-dark overflow-hidden pt-20 md:pt-24" style={{ overflowX: 'hidden' }}>
       {/* Struktura pozadí */}
       <div className="absolute inset-0 bg-industrial-dark bg-opacity-80 z-0">
         <div className="absolute inset-0 opacity-30 mix-blend-overlay" style={{ 
@@ -24,8 +24,8 @@ const Hero = () => {
             key={index}
             className="absolute"
             style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 90 + 5}%`,
+              top: `${Math.random() * 90 + 5}%`,
               opacity: Math.random() * 0.3 + 0.05,
               transform: `rotate(${index * 30}deg)`,
               animation: `spin ${Math.random() * 30 + 20}s linear infinite${Math.random() > 0.5 ? ' reverse' : ''}`
@@ -38,14 +38,14 @@ const Hero = () => {
       
       {/* Světelné paprsky */}
       <div className="absolute inset-0 z-0 overflow-hidden opacity-30">
-        <div className="absolute top-0 left-1/2 w-[150vw] h-[150vh] -translate-x-1/2 -translate-y-1/4 bg-gradient-radial from-gold/20 via-transparent to-transparent"></div>
+        <div className="absolute top-0 left-0 right-0 mx-auto w-full h-[120vh] bg-gradient-radial from-gold/20 via-transparent to-transparent"></div>
       </div>
       
       <div ref={parallaxRef} className="container mx-auto px-4 md:px-6 z-10 relative w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
-          <div className="space-y-6 md:space-y-8 mt-8 md:mt-0">
+          <div className="space-y-6 md:space-y-8 mt-8 md:mt-0 text-center md:text-left">
             <div className="relative" data-depth="0.1">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 relative z-20">
+              <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 relative z-20">
                 <span className="text-white glow-text relative z-10">{t('hero.intro_text')} </span>
                 <span className="text-gold glow-text-gold relative z-10">{t('hero.title')}</span>
                 <br />
@@ -71,17 +71,17 @@ const Hero = () => {
             </div>
             
             <div className="relative" data-depth="0.3">
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a 
                   href="#services" 
-                  className="relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-gold via-gold/90 to-gold overflow-hidden rounded-md transition-all duration-500 transform text-center"
+                  className="relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-gold via-gold/90 to-gold rounded-md transition-all duration-500 transform text-center overflow-hidden"
                 >
                   <span className="relative z-10 text-industrial-dark font-bold">{t('services.title')}</span>
                   <div className="absolute inset-0 bg-white/25 origin-left -translate-x-full animate-pulse-slow"></div>
                 </a>
                 <a 
                   href="#contact" 
-                  className="relative px-6 sm:px-8 py-3 sm:py-4 border-2 border-gold text-gold font-bold rounded-md overflow-hidden text-center"
+                  className="relative px-6 sm:px-8 py-3 sm:py-4 border-2 border-gold text-gold font-bold rounded-md text-center overflow-hidden"
                 >
                   <span className="relative z-10">{t('contact.title')}</span>
                   <div className="absolute inset-0 bg-gold/10 origin-left -translate-x-full animate-pulse-slow"></div>
@@ -92,9 +92,9 @@ const Hero = () => {
           
           <div className="relative mt-8 md:mt-0" data-depth="0.4">
             <div className="glass p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl backdrop-blur-lg border border-gold/20 shadow-2xl relative overflow-hidden">
-              {/* Světelné efekty v rozích */}
-              <div className="absolute -top-10 -left-10 w-20 h-20 bg-gold/20 blur-2xl rounded-full animate-pulse-slow"></div>
-              <div className="absolute -bottom-10 -right-10 w-20 h-20 bg-gold/20 blur-2xl rounded-full animate-pulse-slow"></div>
+              {/* Světelné efekty v rozích - zmenšeny a posunuty dovnitř */}
+              <div className="absolute top-0 left-0 w-16 h-16 bg-gold/20 blur-2xl rounded-full animate-pulse-slow"></div>
+              <div className="absolute bottom-0 right-0 w-16 h-16 bg-gold/20 blur-2xl rounded-full animate-pulse-slow"></div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                 <div className="flex flex-col items-center p-4 sm:p-6 bg-industrial-dark/50 rounded-lg border border-gold/10 transition-all duration-500">
@@ -137,7 +137,7 @@ const Hero = () => {
         </a>
       </div>
       
-      {/* Částicový efekt */}
+      {/* Částicový efekt - upravený, aby nepřesahoval */}
       <div className="particles-container absolute inset-0 z-0 overflow-hidden">
         {Array.from({ length: 20 }).map((_, index) => (
           <div
@@ -146,8 +146,8 @@ const Hero = () => {
             style={{
               width: `${Math.random() * 5 + 1}px`,
               height: `${Math.random() * 5 + 1}px`,
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 90 + 5}%`,
+              top: `${Math.random() * 90 + 5}%`,
               opacity: Math.random() * 0.5 + 0.2,
               animation: `float ${Math.random() * 10 + 10}s linear infinite alternate`
             }}

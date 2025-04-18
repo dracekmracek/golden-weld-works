@@ -33,13 +33,13 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-industrial-dark/80 backdrop-blur-lg shadow-md py-2"
+          ? "bg-industrial-dark/80 backdrop-blur-lg shadow-md py-3 min-h-[70px]"
           : "bg-transparent py-4"
-      }`}
+      } flex items-center`}
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 w-full">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-gold text-2xl font-bold">
+          <a href="#" className="text-gold text-2xl font-bold flex items-center">
             Schöberle <span className="text-white">Industry</span>
           </a>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-white focus:outline-none"
+            className="md:hidden text-white focus:outline-none flex items-center"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
