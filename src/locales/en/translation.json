@@ -28,6 +28,7 @@
     "title": "About Us",
     "subtitle": "Schöberle Industry",
     "experienced_team": "Experienced Team",
+    "who_we_are": "Who We Are",
     "paragraph1": "We are a specialized team of professionals with extensive experience in industrial welding and metal machining.",
     "paragraph2": "Our company focuses on providing high-quality services in welding, machining and industrial manufacturing.",
     "paragraph3": "Using modern technologies and procedures, we ensure the highest quality and precision in implementing your projects.",
@@ -48,34 +49,133 @@
   "services": {
     "title": "Our Services",
     "subtitle": "What We Offer",
-    "description": "We provide comprehensive services in industrial welding and metal machining.",
-    "who_we_are": "Who We Are",
-    "items": [
-      {
-        "title": "MIG/MAG Welding",
-        "description": "MIG/MAG welding for various types of metals and thicknesses."
-      },
-      {
-        "title": "TIG Welding",
-        "description": "Precise TIG welding with high-quality joints."
-      },
-      {
-        "title": "Projection Welding",
-        "description": "Projection welding - welding nuts onto cut parts."
-      },
-      {
-        "title": "Welded Structure Manufacturing",
-        "description": "Complete manufacturing of welded structures according to customer requirements."
-      },
-      {
-        "title": "CNC Machining",
-        "description": "Precise CNC machining of metal components."
-      },
-      {
-        "title": "Service and Maintenance",
-        "description": "Service and maintenance of industrial equipment."
-      }
-    ]
+    "section_subtitle": "What We Offer",
+    "section_title_part1": "Expert Metalworking",
+    "section_title_part2": "& Welding",
+    "intro_main": "We are a leader in precision and innovative welding and metal manufacturing.",
+    "intro_partner": "Rely on our technological know-how and years of proven reliability.",
+    "intro_sub": "We provide comprehensive solutions in industrial welding, precision machining, and material cutting, focusing on quality and reliability throughout the entire production process.",
+    "cta": "Contact Us for a Quote",
+    "welding": {
+      "title": "Precision Welding",
+      "description": "Professional welding services using the latest technologies to achieve maximum strength, precision, and visual quality of joints in steel, stainless steel, and aluminum.",
+      "mig_title": "MIG/MAG Welding",
+      "mig_desc": "Highly productive method for fast and efficient welding in protective atmosphere, ideal for constructions and serial production.",
+      "tig_title": "TIG (WIG) Welding",
+      "tig_desc": "For welds of the highest quality and purity. Perfect for visible parts, thin materials, and demanding applications (automotive, healthcare).",
+      "resistance_title": "Special Welding",
+      "resistance_desc": "Resistance welding on a TECNA linear press and projection welding for welding nuts onto cut parts with excellent strength and precision.",
+      "intro": "Comprehensive professional welding services for a variety of materials and applications, employing state-of-the-art techniques and equipment.",
+      "details": [
+        {
+          "title": "MIG/MAG Welding",
+          "description": "Versatile and efficient welding for various metal types and thicknesses. Ideal for production and industrial applications, delivering strong, quality welds.",
+          "benefits": "High productivity, excellent weld quality, various material compatibility"
+        },
+        {
+          "title": "TIG Welding",
+          "description": "Precision welding with exceptional control and aesthetic finish. Perfect for thin materials and visible joints requiring high-quality finishes.",
+          "benefits": "Superior weld quality, precise control, excellent finish"
+        },
+        {
+          "title": "Resistance Welding",
+          "description": "Utilizing a TECNA linear resistance press for efficient joining of metal sheets without additional materials. Fast and economical for mass production.",
+          "benefits": "Speed, consistency, cost-effectiveness for high-volume production"
+        },
+        {
+          "title": "Projection Welding",
+          "description": "Specialized technique for attaching nuts and similar components to metal sheets. Creates strong, precise connections for complex assemblies.",
+          "benefits": "Strong connections, reliable assembly, perfect for complex components"
+        }
+      ]
+    },
+    "machining": {
+      "title": "Locksmith & Machining",
+      "description": "Comprehensive locksmith services for industrial applications with precision and quality. We guarantee accurate processing and flexibility for all your needs.",
+      "drilling_title": "Drilling & Threading",
+      "drilling_desc": "Precise drilling, reaming, and countersinking for screws. We create threads from M3 to M26 according to your technical specifications.",
+      "tumbling_title": "Surface Treatments",
+      "tumbling_desc": "Deburring and tumbling for perfect surface finish. We ensure a smooth finish and uniform appearance of all metal parts.",
+      "marking_title": "Micro-Impact Marking",
+      "marking_desc": "Permanent and precise marking of parts by micro-impact for their identification and traceability. All parts undergo inspection with calibrated gauges.",
+      "intro": "Professional machining and locksmith services that provide precision finishing and modification of metal components for various industrial applications.",
+      "details": [
+        {
+          "title": "Drilling and Reaming",
+          "description": "Precision creation and adjustment of holes for industrial applications. We ensure accurate dimensions and high-quality surfaces.",
+          "benefits": "High precision, quality surface finish, dimensional accuracy"
+        },
+        {
+          "title": "Screw Countersinking",
+          "description": "Creation of precise countersinks for optimal screw seating in various materials and applications.",
+          "benefits": "Aesthetic finish, proper screw function, component longevity"
+        },
+        {
+          "title": "Threading M3 to M26",
+          "description": "Production of internal and external threads with precise dimensions and excellent quality across a wide range of sizes.",
+          "benefits": "Wide size range, high thread quality, reliable connections"
+        },
+        {
+          "title": "Micro-Impact Marking",
+          "description": "Permanent and precise marking of components with serial numbers, logos, or other identification elements.",
+          "benefits": "Durability, traceability, professional appearance"
+        },
+        {
+          "title": "Quality Inspection",
+          "description": "Thorough verification of dimensions and specifications using calibrated gauges, ensuring compliance with customer requirements.",
+          "benefits": "Quality assurance, dimensional accuracy, reliable performance"
+        }
+      ]
+    },
+    "cutting": {
+      "title": "CNC Material Cutting",
+      "intro": "Our modern CNC band saw ensures highly precise, fast, and efficient cutting of a wide range of materials with emphasis on cut quality and waste minimization.",
+      "benefits_title": "Main Benefits of CNC Cutting",
+      "benefit1": "Minimal cutting waste and material savings: Optimized cuts save your costs and raw materials.",
+      "benefit2": "High precision and repeatability: We guarantee consistent quality and dimensional accuracy of all parts.",
+      "benefit3": "Efficiency and speed: We reduce production times and increase the productivity of your projects.",
+      "benefit4": "Processing flexibility: We work with steel, stainless steel, aluminum, copper, and specialized alloys according to requirements."
+    },
+    "material_cutting": {
+      "title": "CNC Material Cutting",
+      "intro": "Modern CNC material cutting services offering precise and efficient processing of various metal materials according to exact specifications.",
+      "details": [
+        {
+          "title": "Precision CNC Cutting",
+          "description": "High-precision cutting of metal materials using computer-controlled systems for maximum accuracy and repeatability.",
+          "benefits": "High precision, complex shapes capability, production efficiency"
+        },
+        {
+          "title": "Various Material Processing",
+          "description": "Processing of steel, stainless steel, aluminum, and other metals with thickness capabilities suited to different project requirements.",
+          "benefits": "Material flexibility, thickness range options, consistent quality"
+        },
+        {
+          "title": "Custom Solutions",
+          "description": "Tailored cutting services based on specific customer requirements, from prototype development to mass production.",
+          "benefits": "Customization, scalability, rapid turnaround"
+        },
+        {
+          "title": "Complete Process Management",
+          "description": "Comprehensive handling from material preparation to final delivery, ensuring quality at every step of the manufacturing process.",
+          "benefits": "One-stop solution, quality control, simplified logistics"
+        }
+      ]
+    },
+    "finishing": {
+      "title": "Finalization & Dispatch",
+      "description": "Complete finishing and delivery services with emphasis on quality, precision, and timeliness. We ensure that your products will be delivered in top quality directly to your door.",
+      "quality_title": "Finishing Work",
+      "quality_desc": "Finalization of all parts and assemblies, thorough surface treatment, and precise completion before dispatch.",
+      "inspection_title": "Quality Control",
+      "inspection_desc": "Thorough final inspection of all products before packaging to ensure flawlessness and compliance with specifications.",
+      "logistics_title": "Packaging & Logistics",
+      "logistics_desc": "Safe packaging of products and reliable logistics with ongoing communication until the moment of delivery."
+    },
+    "cta": {
+      "title": "Ready to implement your project?",
+      "description": "Entrust your metalworking and welding requirements to the hands of experts. Contact us for a non-binding consultation and a tailored offer."
+    }
   },
   "contact": {
     "title": "Contact Us",
@@ -104,5 +204,205 @@
     "rights": "© 2023 Schöberle Industry. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms and Conditions"
+  },
+  "services_page": {
+    "section_title": "What We Do",
+    "main_title": "Professional Industrial Services",
+    "section_description": "Our services cover the full range of industrial metal processing - from welding and locksmith work to finishing and dispatch of final products.",
+    "welding": {
+      "title": "Welding",
+      "description": "Professional welding services using the latest technologies and procedures.",
+      "points": [
+        "Welding of steel, stainless steel, and aluminum",
+        "MIG, TIG, and flame welding methods",
+        "Resistance welding – TECNA linear resistance press",
+        "Projection welding – welding nuts onto blanks"
+      ]
+    },
+    "locksmith": {
+      "title": "Locksmith Work",
+      "description": "Comprehensive locksmith services for industrial applications with precision and quality.",
+      "points": [
+        "Drilling and reaming",
+        "Countersinking for screws",
+        "Threading from M3 to M26",
+        "Micro-impact marking",
+        "Inspection with calibrated gauges"
+      ]
+    },
+    "finishing": {
+      "title": "Finishing and Dispatch",
+      "description": "Complete services for finishing and delivering products right to your door.",
+      "points": [
+        "Finishing work",
+        "Surface treatment",
+        "Final inspection",
+        "Packaging and logistics",
+        "Client communication"
+      ]
+    },
+    "additional_title": "Comprehensive Approach to Your Needs",
+    "additional_description": "Overall, this is a complex process that ensures every product leaves our company in the best possible quality and is safely delivered to the customer.",
+    "cta_button": "Get a Quote"
+  },
+  "contact_page": {
+    "main_title_part1": "Let's join forces and",
+    "main_title_part2": "achieve great success",
+    "section_description": "Contact us for a non-binding consultation regarding your needs. Our team is ready to design the optimal solution for your project.",
+    "contact_details_title": "Contact Details",
+    "billing_info_title": "Billing Information",
+    "country": "Czech Republic",
+    "phone_title": "Phone",
+    "name_radim": "Radim Schöberle:",
+    "name_dan": "Dan Schöberle:",
+    "email_title": "Email",
+    "social_media_title": "Follow Us",
+    "form_title": "Write to Us",
+    "form_label_name": "Name",
+    "form_label_email": "Email",
+    "form_label_phone": "Phone",
+    "form_label_message": "Message",
+    "form_button_send": "Send Message",
+    "form_button_sending": "Sending...",
+    "form_alert_success": "Thank you for your interest! We will contact you soon.",
+    "form_success_title": "Message Successfully Sent!",
+    "form_success_message": "Thank you for your inquiry. We will respond as soon as possible.",
+    "form_send_another": "Send Another Message"
+  },
+  "footer_page": {
+    "slogan": "Quality you can rely on",
+    "copyright": "© {{year}} Schöberle Industry. All rights reserved."
+  },
+  "cookie": {
+    "title": "We use cookies",
+    "description": "This website uses cookies to ensure you get the best browsing experience. Cookies are essential for the website functionality and also help us with traffic analysis.",
+    "accept": "Accept all",
+    "decline": "Essential only",
+    "learnMore": "Learn more",
+    "settings": "Cookie settings"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Schöberle Industry (\"we\", \"us\", or \"our\") operates the schoberle-industry.cz website (the \"Service\"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service.",
+      "sections": {
+        "dataCollection": {
+          "title": "Information Collection and Use",
+          "content": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your name, email address, and phone number. The information that we collect will be used to contact or identify you."
+        },
+        "dataUsage": {
+          "title": "Use of Data",
+          "content": "We use your personal data for the following purposes:",
+          "purposes": [
+            "To provide and maintain the Service",
+            "To notify you about changes to our Service",
+            "To allow you to participate in interactive features of our Service when you choose to do so",
+            "To provide customer care and support",
+            "To gather analysis or valuable information so that we can improve our Service",
+            "To monitor the usage of the Service",
+            "To detect, prevent and address technical issues"
+          ]
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "Cookies are files with a small amount of data that may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. We use cookies for the following purposes:",
+          "purposes": [
+            "To remember your preferences and settings",
+            "To understand how you interact with our website",
+            "To analyze traffic and improve our services"
+          ]
+        },
+        "security": {
+          "title": "Security",
+          "content": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."
+        },
+        "rights": {
+          "title": "Your Data Protection Rights",
+          "content": "Under data protection laws, you have the following rights:",
+          "rightsList": [
+            "The right of access – You have the right to request copies of your personal data.",
+            "The right to rectification – You have the right to request that we correct any information you believe is inaccurate.",
+            "The right to erasure – You have the right to request that we erase your personal data, under certain conditions.",
+            "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.",
+            "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions."
+          ]
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "If you have any questions or concerns about our Privacy Policy, please contact us at: info@schoberle-industry.cz"
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Welcome to the Schöberle Industry website. These terms of service outline the rules and regulations for the use of Schöberle Industry's website.",
+      "sections": {
+        "access": {
+          "title": "Website Access",
+          "content": "By accessing this website, we assume you accept these terms of service in full. Do not continue to use Schöberle Industry's website if you do not agree to all of the terms of service stated on this page."
+        },
+        "intellectualProperty": {
+          "title": "Intellectual Property",
+          "content": "Unless otherwise stated, Schöberle Industry and/or its licensors own the intellectual property rights for all material on Schöberle Industry. All intellectual property rights are reserved. You may access material from Schöberle Industry for your own personal use subject to restrictions set in these terms of service."
+        },
+        "restrictions": {
+          "title": "Restrictions",
+          "content": "You are specifically restricted from the following:",
+          "restrictionsList": [
+            "Publishing any material from Schöberle Industry",
+            "Selling, renting or sub-licensing material from Schöberle Industry",
+            "Reproducing, duplicating or copying material from Schöberle Industry",
+            "Redistributing content from Schöberle Industry"
+          ]
+        },
+        "userContent": {
+          "title": "User Content",
+          "content": "In certain areas of this website, users may be able to post and exchange opinions and information. Schöberle Industry does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Schöberle Industry, its agents and/or affiliates."
+        },
+        "liability": {
+          "title": "Liability",
+          "content": "The materials on Schöberle Industry's website are provided on an 'as is' basis. Schöberle Industry makes no warranties, expressed or implied, and hereby disclaims all other warranties."
+        },
+        "links": {
+          "title": "Third-Party Links",
+          "content": "Our website may contain links to third-party websites that are not owned or controlled by Schöberle Industry. Schöberle Industry has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services."
+        },
+        "changes": {
+          "title": "Changes to Terms",
+          "content": "Schöberle Industry reserves the right to revise these terms of service for its website at any time as it sees fit. By using this website, you are agreeing to be bound by the then current version of these terms of service."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "This document explains how Schöberle Industry uses cookies and similar technologies to recognize you when you visit our website.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "What are cookies",
+          "content": "Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information."
+        },
+        "howWeUse": {
+          "title": "How we use cookies",
+          "content": "We use cookies for the following reasons:",
+          "reasons": [
+            "Necessary cookies: These cookies are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website.",
+            "Analytical cookies: These cookies allow us to recognize and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works.",
+            "Functionality cookies: These cookies are used to recognize you when you return to our website. This enables us to personalize our content for you, greet you by name and remember your preferences.",
+            "Targeting cookies: These cookies record your visit to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests."
+          ]
+        },
+        "yourChoices": {
+          "title": "Your choices regarding cookies",
+          "content": "You have the ability to enable or disable cookies and you can do this by changing the settings on your browser. Be aware that disabling cookies may prevent you from using the full functionality of this website."
+        }
+      }
+    }
+  },
+  "common": {
+    "back_to_home": "Back to home page",
+    "related_documents": "Related documents"
   }
 } 

@@ -28,6 +28,7 @@
     "title": "O nás",
     "subtitle": "Schöberle Industry",
     "experienced_team": "Zkušený tým",
+    "who_we_are": "Kdo jsme",
     "paragraph1": "Jsme specializovaný tým odborníků s bohatými zkušenostmi v oboru průmyslového svařování a obrábění kovů.",
     "paragraph2": "Naše společnost se zaměřuje na poskytování vysoce kvalitních služeb v oblasti svařování, obrábění a průmyslové výroby.",
     "paragraph3": "S využitím moderních technologií a postupů zajišťujeme nejvyšší kvalitu a přesnost při realizaci vašich projektů.",
@@ -47,35 +48,54 @@
   },
   "services": {
     "title": "Naše služby",
-    "subtitle": "Co nabízíme",
-    "description": "Poskytujeme komplexní služby v oblasti průmyslového svařování a obrábění kovů.",
-    "who_we_are": "Kdo jsme",
-    "items": [
-      {
-        "title": "MIG/MAG svařování",
-        "description": "Svařování metodou MIG/MAG pro různé typy kovů a tloušťky."
-      },
-      {
-        "title": "TIG svařování",
-        "description": "Precizní TIG svařování s vysokou kvalitou spojů."
-      },
-      {
-        "title": "Výpuskové svařování",
-        "description": "Výpuskové svařování – navařování matic na výpalky."
-      },
-      {
-        "title": "Výroba svařovaných konstrukcí",
-        "description": "Kompletní výroba svařovaných konstrukcí dle požadavků zákazníka."
-      },
-      {
-        "title": "CNC obrábění",
-        "description": "Přesné CNC obrábění kovových součástí."
-      },
-      {
-        "title": "Servis a údržba",
-        "description": "Servis a údržba průmyslových zařízení."
-      }
-    ]
+    "section_subtitle": "Co nabízíme?",
+    "section_title_part1": "Expertní kovovýroba",
+    "section_title_part2": "& svařování",
+    "intro_main": "",
+    "intro_partner": "Spolehněte se na naše technologické know-how a léty ověřenou spolehlivost.",
+    "welding": {
+      "title": "Precizní Svařování",
+      "description": "Profesionální svařovací služby s využitím nejmodernějších technologií pro dosažení maximální pevnosti, přesnosti a vizuální kvality spojů u oceli, nerezu i hliníku.",
+      "mig_title": "MIG/MAG Svařování",
+      "mig_desc": "Vysoce produktivní metoda pro rychlé a efektivní svařování v ochranné atmosféře, ideální pro konstrukce a sériovou výrobu.",
+      "tig_title": "TIG (WIG) Svařování",
+      "tig_desc": "Pro svary nejvyšší kvality a čistoty. Perfektní pro pohledové díly, tenké materiály a náročné aplikace (automotive, zdravotnictví).",
+      "resistance_title": "Speciální Svařování",
+      "resistance_desc": "Odporové svařování na lineárním lisu TECNA a výpuskové svařování pro navařování matic na výpalky s vynikající pevností a přesností."
+    },
+    "machining": {
+      "title": "Zámečnictví & Obrábění",
+      "description": "Komplexní zámečnické služby pro průmyslové aplikace s přesností a kvalitou. Zaručujeme přesné zpracování a flexibilitu pro všechny vaše potřeby.",
+      "drilling_title": "Vrtání & Závitování",
+      "drilling_desc": "Přesné vrtání, vystružování a zahlubování pro šrouby. Vytváříme závity od M3 do M26 dle vašich technických specifikací.",
+      "tumbling_title": "Povrchové Úpravy",
+      "tumbling_desc": "Odjehlování a omílání pro dokonalou povrchovou úpravu. Zajistíme hladký finiš a jednotný vzhled všech kovových dílů.",
+      "marking_title": "Mikroúderové Značení",
+      "marking_desc": "Trvalé a přesné značení dílů mikroúderem pro jejich identifikaci a sledovatelnost. Všechny díly procházejí kontrolou kalibrovanými měřidly."
+    },
+    "cutting": {
+      "title": "CNC Dělení Materiálu",
+      "intro": "Naše moderní CNC pásová pila zajišťuje vysoce přesné, rychlé a efektivní dělení široké škály materiálů s důrazem na kvalitu řezu a minimalizaci odpadu.",
+      "benefits_title": "Hlavní výhody CNC dělení",
+      "benefit1": "Minimální prořez a úspora materiálu: Optimalizované řezy šetří vaše náklady a suroviny.",
+      "benefit2": "Vysoká přesnost a opakovatelnost: Zaručujeme konzistentní kvalitu a rozměrovou přesnost všech dílů.",
+      "benefit3": "Efektivita a rychlost: Zkracujeme výrobní časy a zvyšujeme produktivitu vašich projektů.",
+      "benefit4": "Flexibilita zpracování: Pracujeme s ocelí, nerezí, hliníkem, mědí i specializovanými slitinami dle požadavků."
+    },
+    "finishing": {
+      "title": "Finalizace & Expedice",
+      "description": "Kompletní služby dokončení a dodání výrobků s důrazem na kvalitu, přesnost a včasnost. Zajistíme, že vaše produkty budou ve špičkové kvalitě doručeny přímo k vašim dveřím.",
+      "quality_title": "Dokončovací Práce",
+      "quality_desc": "Finalizace všech dílů a sestav, důkladná povrchová úprava a precizní kompletace před expedicí.",
+      "inspection_title": "Kontrola Kvality",
+      "inspection_desc": "Důkladná finální kontrola všech výrobků před balením, aby byla zaručena bezchybnost a shoda se specifikacemi.",
+      "logistics_title": "Balení & Logistika",
+      "logistics_desc": "Bezpečné balení produktů a spolehlivá logistika s průběžnou komunikací až do chvíle dodání."
+    },
+    "cta": {
+      "title": "Připraveni realizovat váš projekt?",
+      "description": "Svěřte své požadavky na kovovýrobu a svařování do rukou expertů. Kontaktujte nás pro nezávaznou konzultaci a nabídku na míru."
+    }
   },
   "contact": {
     "title": "Kontaktujte nás",
@@ -104,5 +124,180 @@
     "rights": "© 2023 Schöberle Industry. Všechna práva vyhrazena.",
     "privacy": "Ochrana osobních údajů",
     "terms": "Obchodní podmínky"
+  },
+  "contact_page": {
+    "main_title_part1": "Spojme síly a",
+    "main_title_part2": "dosáhněme velkých úspěchů",
+    "section_description": "Kontaktujte nás pro nezávaznou konzultaci vašich potřeb. Náš tým je připraven navrhnout optimální řešení pro váš projekt.",
+    "contact_details_title": "Kontaktní údaje",
+    "billing_info_title": "Fakturační údaje",
+    "country": "Česká Republika",
+    "phone_title": "Telefon",
+    "name_radim": "Radim Schöberle:",
+    "name_dan": "Dan Schöberle:",
+    "email_title": "Email",
+    "social_media_title": "Sledujte nás",
+    "form_title": "Napište nám",
+    "form_label_name": "Jméno",
+    "form_label_email": "Email",
+    "form_label_phone": "Telefon",
+    "form_label_message": "Zpráva",
+    "form_button_send": "Odeslat zprávu",
+    "form_button_sending": "Odesílám...",
+    "form_alert_success": "Děkujeme za váš zájem! Brzy se vám ozveme.",
+    "form_success_title": "Zpráva byla úspěšně odeslána!",
+    "form_success_message": "Děkujeme za váš dotaz. Odpovíme na něj co nejdříve to bude možné.",
+    "form_send_another": "Poslat další zprávu"
+  },
+  "footer_page": {
+    "slogan": "Kvalita, na kterou se můžete spolehnout",
+    "copyright": "© {{year}} Schöberle Industry. Všechna práva vyhrazena."
+  },
+  "cookie": {
+    "title": "Používáme cookies",
+    "description": "Tento web používá cookies, aby zajistil co nejlepší zážitek z prohlížení. Cookies jsou nezbytné pro funkčnost stránek a pomáhají nám také s analýzou návštěvnosti.",
+    "accept": "Přijmout vše",
+    "decline": "Pouze nezbytné",
+    "learnMore": "Více informací",
+    "settings": "Nastavení cookies",
+    "settings_description": "Zde můžete přizpůsobit vaše preference ohledně cookies. Aktivujte nebo deaktivujte následující kategorie a uložte vaše preference.",
+    "necessary_title": "Nezbytné cookies",
+    "necessary_description": "Tyto cookies jsou nezbytné pro správné fungování webových stránek a nemohou být deaktivovány.",
+    "always_active": "Vždy aktivní",
+    "analytics_title": "Analytické cookies",
+    "analytics_description": "Tyto cookies nám umožňují měřit návštěvnost a analyzovat, jak návštěvníci používají náš web, abychom mohli zlepšovat jeho výkon a funkčnost.",
+    "marketing_title": "Marketingové cookies",
+    "marketing_description": "Tyto cookies jsou používány k sledování návštěvníků na webových stránkách. Záměrem je zobrazovat reklamy, které jsou relevantní a zajímavé pro jednotlivého uživatele.",
+    "preferences_title": "Preferenční cookies",
+    "preferences_description": "Tyto cookies umožňují webové stránce zapamatovat si informace, které mění způsob, jakým se webová stránka chová nebo jak vypadá.",
+    "activate": "Aktivovat",
+    "save_preferences": "Uložit preference",
+    "privacy_policy": "Zásady ochrany osobních údajů",
+    "cookie_policy": "Zásady používání cookies",
+    "necessary_only": "Pouze nezbytné"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Zásady ochrany osobních údajů",
+      "updatedAt": "Poslední aktualizace: {{date}}",
+      "intro": "Společnost Schöberle Industry (dále jen \"my\", \"nás\" nebo \"naše\") provozuje web schoberle-industry.cz (dále jen \"Služba\"). Tato stránka vás informuje o našich zásadách ohledně shromažďování, používání a zveřejňování osobních údajů při používání naší Služby.",
+      "sections": {
+        "dataCollection": {
+          "title": "Shromažďování a používání informací",
+          "content": "Pro zajištění lepší služby, během používání naší Služby, můžeme požadovat, abyste nám poskytli určité osobní údaje, včetně, ale bez omezení na, vaše jméno, e-mailovou adresu a telefonní číslo. Informace, které shromažďujeme, budou použity pouze ke kontaktování nebo identifikaci uživatele."
+        },
+        "dataUsage": {
+          "title": "Použití dat",
+          "content": "Vaše osobní údaje používáme pro následující účely:",
+          "purposes": [
+            "Poskytování a údržba Služby",
+            "Oznámení o změnách naší Služby",
+            "Umožnění účasti na interaktivních funkcích naší Služby, pokud se rozhodnete",
+            "Poskytování zákaznické podpory",
+            "Shromažďování analýz nebo cenných informací, abychom zlepšili naši Službu",
+            "Monitorování využívání Služby",
+            "Detekce, prevence a řešení technických problémů"
+          ]
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "Cookies jsou soubory s malým množstvím dat, které mohou obsahovat anonymní jedinečný identifikátor. Cookies jsou odesílány do vašeho prohlížeče z webových stránek a ukládány na vašem zařízení. Používáme cookies pro následující účely:",
+          "purposes": [
+            "Zapamatování vašich preferencí a nastavení",
+            "Pochopení, jak interagujete s naším webem",
+            "Analýzu návštěvnosti a zlepšování našich služeb"
+          ]
+        },
+        "security": {
+          "title": "Bezpečnost",
+          "content": "Bezpečnost vašich dat je pro nás důležitá, ale pamatujte, že žádná metoda přenosu přes internet nebo metoda elektronického ukládání není 100% bezpečná. I když se snažíme používat komerčně přijatelné prostředky k ochraně vašich osobních údajů, nemůžeme zaručit jejich absolutní bezpečnost."
+        },
+        "rights": {
+          "title": "Vaše práva ohledně osobních údajů",
+          "content": "Podle platných zákonů o ochraně údajů máte následující práva:",
+          "rightsList": [
+            "Právo na přístup - Máte právo požádat o kopii vašich osobních údajů.",
+            "Právo na opravu - Máte právo požádat o opravu jakýchkoli informací, které jsou nepřesné.",
+            "Právo na výmaz - Máte právo požádat o vymazání vašich osobních údajů za určitých podmínek.",
+            "Právo na omezení zpracování - Máte právo požádat o omezení zpracování vašich osobních údajů za určitých podmínek.",
+            "Právo na přenositelnost údajů - Máte právo požádat o přenos údajů, které jsme shromáždili, k jinému organizaci nebo přímo vám, za určitých podmínek."
+          ]
+        },
+        "contact": {
+          "title": "Kontaktujte nás",
+          "content": "Pokud máte jakékoli dotazy nebo obavy týkající se našich zásad ochrany osobních údajů, kontaktujte nás na: info@schoberle-industry.cz"
+        }
+      }
+    },
+    "terms": {
+      "title": "Podmínky použití",
+      "updatedAt": "Poslední aktualizace: {{date}}",
+      "intro": "Vítejte na webových stránkách Schöberle Industry. Tyto podmínky použití popisují pravidla a předpisy pro používání webové stránky Schöberle Industry.",
+      "sections": {
+        "access": {
+          "title": "Přístup k webovým stránkám",
+          "content": "Přístupem k této webové stránce předpokládáme, že přijímáte tyto podmínky použití v plném rozsahu. Nepoužívejte webovou stránku Schöberle Industry, pokud nesouhlasíte se všemi podmínkami uvedenými na této stránce."
+        },
+        "intellectualProperty": {
+          "title": "Duševní vlastnictví",
+          "content": "Pokud není uvedeno jinak, Schöberle Industry a/nebo její poskytovatelé licencí vlastní práva duševního vlastnictví pro veškerý materiál na Schöberle Industry. Všechna práva duševního vlastnictví jsou vyhrazena. Můžete přistupovat k materiálu z Schöberle Industry pro své osobní použití s výhradou omezení stanovených v těchto podmínkách."
+        },
+        "restrictions": {
+          "title": "Omezení",
+          "content": "Následující jednání jsou zakázána:",
+          "restrictionsList": [
+            "Opublikování materiálu z Schöberle Industry",
+            "Prodej, pronájem nebo sublicencování materiálu z Schöberle Industry",
+            "Reprodukce, duplikace nebo kopírování materiálu z Schöberle Industry",
+            "Redistribuce obsahu z Schöberle Industry"
+          ]
+        },
+        "userContent": {
+          "title": "Uživatelský obsah",
+          "content": "V určitých oblastech této webové stránky může být uživatelům umožněno zveřejňovat a vyměňovat si názory a informace. Schöberle Industry nefiltruje, neupravuje, nepublikuje ani nekontroluje komentáře před jejich přítomností na webových stránkách. Komentáře neodráží názory a postoje Schöberle Industry, jejích agentů a/nebo přidružených společností."
+        },
+        "liability": {
+          "title": "Odpovědnost",
+          "content": "Materiály na webových stránkách Schöberle Industry jsou poskytovány 'tak, jak jsou'. Schöberle Industry neposkytuje žádné záruky, ať už výslovné nebo předpokládané, a proto odmítá všechny ostatní záruky."
+        },
+        "links": {
+          "title": "Odkazy na třetí strany",
+          "content": "Naše webové stránky mohou obsahovat odkazy na weby třetích stran, které nejsou vlastněny nebo kontrolovány společností Schöberle Industry. Schöberle Industry nemá kontrolu nad obsahem, zásadami ochrany osobních údajů nebo praktikami webových stránek třetích stran a nenese za ně žádnou odpovědnost."
+        },
+        "changes": {
+          "title": "Změny podmínek",
+          "content": "Schöberle Industry si vyhrazuje právo revidovat tyto podmínky webových stránek kdykoli, jak uzná za vhodné. Při používání těchto webových stránek souhlasíte s tím, že jste vázáni aktuální verzí těchto podmínek použití."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Zásady používání cookies",
+      "updatedAt": "Poslední aktualizace: {{date}}",
+      "intro": "Tento dokument vysvětluje, jak Schöberle Industry používá cookies a podobné technologie k rozpoznání, když navštívíte naše webové stránky.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "Co jsou cookies",
+          "content": "Cookies jsou malé datové soubory, které jsou umístěny ve vašem počítači nebo mobilním zařízení při návštěvě webové stránky. Cookies jsou široce používány vlastníky webových stránek k zajištění funkčnosti a efektivity webových stránek, stejně jako k poskytování informací o hlášení."
+        },
+        "howWeUse": {
+          "title": "Jak používáme cookies",
+          "content": "Používáme cookies z následujících důvodů:",
+          "reasons": [
+            "Nezbytné cookies: Tyto cookies jsou vyžadovány pro fungování našich webových stránek. Zahrnují například cookies, které vám umožňují přihlásit se do zabezpečených oblastí našich webových stránek.",
+            "Analytické cookies: Tyto cookies nám umožňují rozpoznat a spočítat počet návštěvníků a vidět, jak se návštěvníci pohybují po našich webových stránkách, když je používají. To nám pomáhá zlepšit způsob, jakým naše webové stránky fungují.",
+            "Funkční cookies: Tyto cookies jsou používány k tomu, aby vás poznaly, když se vrátíte na naše webové stránky. To nám umožňuje personalizovat náš obsah pro vás, pozdravit vás jménem a zapamatovat si vaše preference.",
+            "Cílené cookies: Tyto cookies zaznamenávají vaši návštěvu našich webových stránek, stránky, které jste navštívili, a odkazy, které jste sledovali. Tyto informace použijeme k tomu, abychom naše webové stránky a reklamy, které se na nich zobrazují, více přizpůsobili vašim zájmům."
+          ]
+        },
+        "yourChoices": {
+          "title": "Vaše volby ohledně cookies",
+          "content": "Máte možnost povolit nebo zakázat cookies a můžete to udělat změnou nastavení ve vašem prohlížeči. Upozorňujeme však, že zakázání cookies může zabránit využití celé funkčnosti této webové stránky."
+        }
+      }
+    }
+  },
+  "common": {
+    "back_to_home": "Zpět na hlavní stránku",
+    "related_documents": "Související dokumenty"
   }
 } 

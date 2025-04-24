@@ -1,10 +1,33 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://schoberle-industry.cz/</loc>
-    <lastmod>2025-04-16</lastmod>
+    <lastmod>2023-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://schoberle-industry.cz/gdpr</loc>
+    <lastmod>2023-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://schoberle-industry.cz/gdpr/privacy-policy</loc>
+    <lastmod>2023-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://schoberle-industry.cz/gdpr/terms</loc>
+    <lastmod>2023-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://schoberle-industry.cz/gdpr/cookies</loc>
+    <lastmod>2023-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

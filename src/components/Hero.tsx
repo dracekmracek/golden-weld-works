@@ -125,18 +125,6 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Jen ikonka šipky dolů - bez textu */}
-      <div className="absolute bottom-8 left-0 right-0 mx-auto w-max z-10 animate-bounce">
-        <a 
-          href="#about" 
-          className="flex flex-col items-center transition-colors duration-300"
-        >
-          <div className="w-6 h-10 border-2 border-gold rounded-full flex justify-center p-1">
-            <ChevronDown className="w-4 h-4 text-gold animate-bounce"/>
-          </div>
-        </a>
-      </div>
-      
       {/* Částicový efekt - upravený, aby nepřesahoval */}
       <div className="particles-container absolute inset-0 z-0 overflow-hidden">
         {Array.from({ length: 20 }).map((_, index) => (

@@ -3,6 +3,25 @@ import { ScrollAnimation } from "./ScrollAnimation";
 import { useTranslation } from "react-i18next";
 import Translate from "./ui/Translate";
 
+// Definice partnerských společností
+const partnerCompanies = [
+  {
+    id: 1,
+    name: "Romotop",
+    logo: "/logos/romotop-logo.svg"
+  },
+  {
+    id: 2,
+    name: "NC Line",
+    logo: "/logos/ncline-logo.svg"
+  },
+  {
+    id: 3,
+    name: "NordicSteel",
+    logo: "/logos/nordicsteel-logo.svg"
+  }
+];
+
 const AboutUs = () => {
   const { t } = useTranslation();
   
@@ -18,7 +37,7 @@ const AboutUs = () => {
             <div className="inline-block mb-6">
               <div className="flex items-center bg-industrial p-2 rounded-lg">
                 <Users className="h-5 w-5 text-gold mr-2" />
-                <span className="text-gold-light font-medium">{t('services.who_we_are')}</span>
+                <span className="text-gold-light font-medium">{t('about.who_we_are')}</span>
               </div>
             </div>
             
@@ -45,10 +64,20 @@ const AboutUs = () => {
             </ScrollAnimation>
             <ScrollAnimation delay={200}>
             <div className="flex items-center">
-              <div className="flex -space-x-4">
-                {[1, 2, 3].map((i) => (
-                  <div key={i} className="w-12 h-12 rounded-full bg-industrial-light border-2 border-gold flex items-center justify-center text-white font-bold">
-                    {i}
+              <div className="flex -space-x-6">
+                {partnerCompanies.map((company) => (
+                  <div 
+                    key={company.id} 
+                    className="w-16 h-16 rounded-full bg-industrial border-2 border-gold flex items-center justify-center p-1 overflow-hidden relative shadow-md hover:scale-105 transition-transform"
+                    style={{ zIndex: 30 - company.id }}
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-industrial to-industrial/90"></div>
+                    <img 
+                      src={company.logo}
+                      alt={company.name}
+                      className="w-full h-full object-contain relative z-10"
+                      title={company.name}
+                    />
                   </div>
                 ))}
               </div>
@@ -59,16 +88,16 @@ const AboutUs = () => {
           </ScrollAnimation>
           </div>
           
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 md:px-8">
             <ScrollAnimation delay={300}>
             <div className="relative">
-              <div className="bg-industrial border-2 border-gold-dark/30 rounded-xl overflow-hidden aspect-video relative">
+              <div className="bg-industrial border-2 border-gold-dark/30 rounded-xl overflow-hidden aspect-square relative">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gold/20 via-industrial to-industrial"></div>
                 <div className="w-full h-full flex items-center justify-center">
                   <img 
-                    src="/placeholder.svg" 
+                    src="/IMGschoberle.webp"
                     alt={t('about.title')}
-                    className="w-3/4 h-3/4 object-contain opacity-90"
+                    className="w-full h-full object-cover opacity-90"
                   />
                 </div>
               </div>

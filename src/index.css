@@ -104,6 +104,7 @@
   
   html {
     scroll-padding-top: 80px;
+    scroll-behavior: smooth;
   }
 
   /* Přidávám globální třídu pro zamezení horizontálního scrollování */
@@ -242,8 +243,7 @@
   }
 
   .ReactFlagsSelect-module_selectOptions__3LNBJ {
-    background-color: rgba(30, 30, 30, 0.9) !important;
-    backdrop-filter: blur(10px) !important;
+    background-color: #111 !important;
     border: 1px solid rgba(212, 175, 55, 0.2) !important;
     border-radius: 0.375rem !important;
     margin-top: 0.5rem !important;
@@ -268,5 +268,12 @@
 
   .ReactFlagsSelect-module_selectOption__3pcgW.ReactFlagsSelect-module_selectOptionWithlabel__3AXmR {
     color: white !important;
+  }
+
+  /* Zvýšení specificity */
+  html body .ReactFlagsSelect-module_selectOptions__3LNBJ {
+    background-color: #111 !important; 
+    border: 1px solid rgba(212, 175, 55, 0.2) !important;
+    border-radius: 0.375rem !important;
   }
 }

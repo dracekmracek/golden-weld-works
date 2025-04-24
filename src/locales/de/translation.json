@@ -6,7 +6,7 @@
     "language": "Sprache"
   },
   "hero": {
-    "title": "Industrieschweißen",
+    "title": "Industrie-schweißen",
     "subtitle": "Effizientes und präzises Schweißen",
     "description": "Wir bieten professionelle Schweißdienste für Industrieprojekte mit Schwerpunkt auf Qualität und Zuverlässigkeit.",
     "cta": "Mehr erfahren",
@@ -28,6 +28,7 @@
     "title": "Über uns",
     "subtitle": "Schöberle Industry",
     "experienced_team": "Erfahrenes Team",
+    "who_we_are": "Wer wir sind",
     "paragraph1": "Wir sind ein spezialisiertes Team von Fachleuten mit umfangreicher Erfahrung im Bereich Industrieschweißen und Metallbearbeitung.",
     "paragraph2": "Unser Unternehmen konzentriert sich auf die Bereitstellung hochwertiger Dienstleistungen in den Bereichen Schweißen, Bearbeitung und industrielle Fertigung.",
     "paragraph3": "Durch den Einsatz moderner Technologien und Verfahren gewährleisten wir höchste Qualität und Präzision bei der Umsetzung Ihrer Projekte.",
@@ -47,9 +48,54 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
-    "subtitle": "Was wir anbieten",
-    "description": "Wir bieten umfassende Dienstleistungen im Bereich Industrieschweißen und Metallbearbeitung.",
-    "who_we_are": "Wer wir sind",
+    "section_subtitle": "Was bieten wir an?",
+    "section_title_part1": "Expert-Metallverarbeitung",
+    "section_title_part2": "& Schweißen",
+    "intro_main": "",
+    "intro_partner": "Verlassen Sie sich auf unser technologisches Know-how und jahrelang bewährte Zuverlässigkeit.",
+    "welding": {
+      "title": "Präzisionsschweißen",
+      "description": "Professionelle Schweißdienstleistungen mit modernster Technologie für maximale Festigkeit, Präzision und visuelle Qualität der Verbindungen bei Stahl, Edelstahl und Aluminium.",
+      "mig_title": "MIG/MAG-Schweißen",
+      "mig_desc": "Hochproduktive Methode für schnelles und effizientes Schweißen in Schutzatmosphäre, ideal für Konstruktionen und Serienfertigung.",
+      "tig_title": "TIG (WIG) Schweißen",
+      "tig_desc": "Für Schweißnähte höchster Qualität und Reinheit. Perfekt für Sichtteile, dünne Materialien und anspruchsvolle Anwendungen (Automotive, Gesundheitswesen).",
+      "resistance_title": "Spezialschweißen",
+      "resistance_desc": "Widerstandsschweißen auf linearer TECNA-Presse und Buckelschweißen zum Aufschweißen von Muttern auf Ausschnitte mit hervorragender Festigkeit und Präzision."
+    },
+    "machining": {
+      "title": "Schlosserarbeiten & Bearbeitung",
+      "description": "Umfassende Schlosserdienstleistungen für industrielle Anwendungen mit Präzision und Qualität. Wir garantieren präzise Verarbeitung und Flexibilität für all Ihre Bedürfnisse.",
+      "drilling_title": "Bohren & Gewindeschneiden",
+      "drilling_desc": "Präzises Bohren, Reiben und Senken für Schrauben. Wir erstellen Gewinde von M3 bis M26 gemäß Ihren technischen Spezifikationen.",
+      "tumbling_title": "Oberflächenbehandlung",
+      "tumbling_desc": "Entgraten und Gleitschleifen für perfekte Oberflächenbehandlung. Wir sorgen für ein glattes Finish und ein einheitliches Erscheinungsbild aller Metallteile.",
+      "marking_title": "Mikroschlagmarkierung",
+      "marking_desc": "Dauerhafte und präzise Markierung von Teilen durch Mikroschlag für Identifikation und Rückverfolgbarkeit. Alle Teile durchlaufen eine Kontrolle mit kalibrierten Messinstrumenten."
+    },
+    "cutting": {
+      "title": "CNC-Materialschneiden",
+      "intro": "Unsere moderne CNC-Bandsäge gewährleistet hochpräzises, schnelles und effizientes Schneiden einer breiten Palette von Materialien mit Fokus auf Schnittqualität und Abfallminimierung.",
+      "benefits_title": "Hauptvorteile des CNC-Schneidens",
+      "benefit1": "Minimaler Schnitt und Materialeinsparung: Optimierte Schnitte sparen Ihre Kosten und Rohstoffe.",
+      "benefit2": "Hohe Präzision und Wiederholbarkeit: Wir garantieren konsistente Qualität und dimensionale Genauigkeit aller Teile.",
+      "benefit3": "Effizienz und Geschwindigkeit: Wir verkürzen Produktionszeiten und erhöhen die Produktivität Ihrer Projekte.",
+      "benefit4": "Verarbeitungsflexibilität: Wir arbeiten mit Stahl, Edelstahl, Aluminium, Kupfer und spezialisierten Legierungen nach Ihren Anforderungen."
+    },
+    "finishing": {
+      "title": "Endbearbeitung & Versand",
+      "description": "Komplette Dienstleistungen für die Endbearbeitung und Lieferung von Produkten mit Fokus auf Qualität, Präzision und Pünktlichkeit. Wir stellen sicher, dass Ihre Produkte in höchster Qualität direkt zu Ihrer Tür geliefert werden.",
+      "quality_title": "Endbearbeitungsarbeiten",
+      "quality_desc": "Finalisierung aller Teile und Baugruppen, gründliche Oberflächenbehandlung und präzise Komplettierung vor dem Versand.",
+      "inspection_title": "Qualitätskontrolle",
+      "inspection_desc": "Gründliche Endkontrolle aller Produkte vor der Verpackung, um Fehlerfreiheit und Übereinstimmung mit den Spezifikationen zu gewährleisten.",
+      "logistics_title": "Verpackung & Logistik",
+      "logistics_desc": "Sichere Verpackung der Produkte und zuverlässige Logistik mit kontinuierlicher Kommunikation bis zur Lieferung."
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu realisieren?",
+      "description": "Vertrauen Sie Ihre Anforderungen an Metallbearbeitung und Schweißen Experten an. Kontaktieren Sie uns für eine unverbindliche Beratung und ein maßgeschneidertes Angebot."
+    },
     "items": [
       {
         "title": "MIG/MAG-Schweißen",
@@ -104,5 +150,220 @@
     "rights": "© 2023 Schöberle Industry. Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Geschäftsbedingungen"
+  },
+  "services_page": {
+    "section_title": "Was wir tun",
+    "main_title": "Professionelle Industriedienstleistungen",
+    "section_description": "Unsere Dienstleistungen decken das gesamte Spektrum der industriellen Metallverarbeitung ab - vom Schweißen über Schlosserarbeiten bis hin zur Endbearbeitung und dem Versand fertiger Produkte.",
+    "welding": {
+      "title": "Schweißen",
+      "description": "Professionelle Schweißdienstleistungen unter Verwendung modernster Technologien und Verfahren.",
+      "points": [
+        "Schweißen von Stahl, Edelstahl und Aluminium",
+        "MIG-, TIG- und auch Autogenschweißverfahren",
+        "Widerstandsschweißen – lineare Widerstandspresse TECNA",
+        "Bolzenschweißen – Aufschweißen von Muttern auf Ausschnitte"
+      ]
+    },
+    "locksmith": {
+      "title": "Schlosserarbeiten",
+      "description": "Umfassende Schlosserarbeiten für industrielle Anwendungen mit Präzision und Qualität.",
+      "points": [
+        "Bohren und Reiben",
+        "Senken für Schrauben",
+        "Gewindeschneiden von M3 bis M26",
+        "Markierung durch Mikroschlag",
+        "Kontrolle mit kalibrierten Messgeräten"
+      ]
+    },
+    "finishing": {
+      "title": "Endbearbeitung und Versand",
+      "description": "Komplette Dienstleistungen für die Endbearbeitung und Lieferung von Produkten direkt an Ihre Tür.",
+      "points": [
+        "Endbearbeitungsarbeiten",
+        "Oberflächenbehandlung",
+        "Endkontrolle",
+        "Verpackung und Logistik",
+        "Kundenkommunikation"
+      ]
+    },
+    "additional_title": "Umfassender Ansatz für Ihre Bedürfnisse",
+    "additional_description": "Insgesamt handelt es sich um einen komplexen Prozess, der sicherstellt, dass jedes Produkt unser Unternehmen in bestmöglicher Qualität verlässt und sicher zum Kunden geliefert wird.",
+    "cta_button": "Angebot anfordern"
+  },
+  "contact_page": {
+    "main_title_part1": "Lassen Sie uns Kräfte bündeln und",
+    "main_title_part2": "große Erfolge erzielen",
+    "section_description": "Kontaktieren Sie uns für eine unverbindliche Beratung zu Ihren Bedürfnissen. Unser Team ist bereit, die optimale Lösung für Ihr Projekt zu entwerfen.",
+    "contact_details_title": "Kontaktdaten",
+    "billing_info_title": "Rechnungsdaten",
+    "country": "Tschechische Republik",
+    "phone_title": "Telefon",
+    "name_radim": "Radim Schöberle:",
+    "name_dan": "Dan Schöberle:",
+    "email_title": "E-Mail",
+    "social_media_title": "Folgen Sie uns",
+    "form_title": "Schreiben Sie uns",
+    "form_label_name": "Name",
+    "form_label_email": "E-Mail",
+    "form_label_phone": "Telefon",
+    "form_label_message": "Nachricht",
+    "form_button_send": "Nachricht senden",
+    "form_button_sending": "Senden...",
+    "form_alert_success": "Vielen Dank für Ihr Interesse! Wir werden uns bald bei Ihnen melden.",
+    "form_success_title": "Nachricht erfolgreich gesendet!",
+    "form_success_message": "Vielen Dank für Ihre Anfrage. Wir werden so bald wie möglich antworten.",
+    "form_send_another": "Eine weitere Nachricht senden"
+  },
+  "footer_page": {
+    "slogan": "Qualität, auf die Sie sich verlassen können",
+    "copyright": "© {{year}} Schöberle Industry. Alle Rechte vorbehalten."
+  },
+  "cookie": {
+    "title": "Wir verwenden Cookies",
+    "description": "Diese Website verwendet Cookies, um Ihnen das beste Surferlebnis zu gewährleisten. Cookies sind für die Funktionalität der Website unerlässlich und helfen uns auch bei der Verkehrsanalyse.",
+    "accept": "Alle akzeptieren",
+    "decline": "Nur notwendige",
+    "learnMore": "Mehr erfahren",
+    "settings": "Cookie-Einstellungen",
+    "settings_description": "Hier können Sie Ihre Cookie-Präferenzen anpassen. Aktivieren oder deaktivieren Sie die folgenden Kategorien und speichern Sie Ihre Einstellungen.",
+    "necessary_title": "Notwendige Cookies",
+    "necessary_description": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich und können nicht deaktiviert werden.",
+    "always_active": "Immer aktiv",
+    "analytics_title": "Analytische Cookies",
+    "analytics_description": "Diese Cookies ermöglichen es uns, den Datenverkehr zu messen und zu analysieren, wie Besucher unsere Website nutzen, um deren Leistung und Funktionalität zu verbessern.",
+    "marketing_title": "Marketing-Cookies",
+    "marketing_description": "Diese Cookies werden verwendet, um Besucher auf Websites zu verfolgen. Die Absicht ist, Anzeigen anzuzeigen, die für den einzelnen Benutzer relevant und ansprechend sind.",
+    "preferences_title": "Präferenz-Cookies",
+    "preferences_description": "Diese Cookies ermöglichen es der Website, sich Informationen zu merken, die die Art und Weise, wie sich die Website verhält oder aussieht, verändern.",
+    "activate": "Aktivieren",
+    "save_preferences": "Einstellungen speichern",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "cookie_policy": "Cookie-Richtlinie",
+    "necessary_only": "Nur notwendige"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "updatedAt": "Zuletzt aktualisiert: {{date}}",
+      "intro": "Schöberle Industry (\"wir\", \"uns\" oder \"unser\") betreibt die Website schoberle-industry.cz (der \"Dienst\"). Diese Seite informiert Sie über unsere Richtlinien zur Erfassung, Verwendung und Offenlegung personenbezogener Daten bei der Nutzung unseres Dienstes.",
+      "sections": {
+        "dataCollection": {
+          "title": "Sammlung und Verwendung von Informationen",
+          "content": "Für ein besseres Erlebnis bei der Nutzung unseres Dienstes können wir von Ihnen verlangen, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, einschließlich, aber nicht beschränkt auf Ihren Namen, Ihre E-Mail-Adresse und Ihre Telefonnummer. Die von uns gesammelten Informationen werden nur verwendet, um Sie zu kontaktieren oder zu identifizieren."
+        },
+        "dataUsage": {
+          "title": "Verwendung von Daten",
+          "content": "Wir verwenden Ihre personenbezogenen Daten für folgende Zwecke:",
+          "purposes": [
+            "Bereitstellung und Wartung des Dienstes",
+            "Benachrichtigung über Änderungen unseres Dienstes",
+            "Ermöglichung der Teilnahme an interaktiven Funktionen unseres Dienstes, wenn Sie dies wünschen",
+            "Bereitstellung von Kundenbetreuung und Support",
+            "Sammlung von Analysen oder wertvollen Informationen, damit wir unseren Dienst verbessern können",
+            "Überwachung der Nutzung des Dienstes",
+            "Erkennung, Verhinderung und Behebung technischer Probleme"
+          ]
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "Cookies sind Dateien mit einer kleinen Datenmenge, die möglicherweise eine anonyme eindeutige Kennung enthalten. Cookies werden von einer Website an Ihren Browser gesendet und auf Ihrem Gerät gespeichert. Wir verwenden Cookies für folgende Zwecke:",
+          "purposes": [
+            "Um Ihre Präferenzen und Einstellungen zu speichern",
+            "Um zu verstehen, wie Sie mit unserer Website interagieren",
+            "Für Verkehrsanalysen und zur Verbesserung unserer Dienste"
+          ]
+        },
+        "security": {
+          "title": "Sicherheit",
+          "content": "Die Sicherheit Ihrer Daten ist uns wichtig, aber denken Sie daran, dass keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher ist. Während wir bestrebt sind, kommerziell akzeptable Mittel zum Schutz Ihrer personenbezogenen Daten zu verwenden, können wir deren absolute Sicherheit nicht garantieren."
+        },
+        "rights": {
+          "title": "Ihre Datenschutzrechte",
+          "content": "Nach den Datenschutzgesetzen haben Sie folgende Rechte:",
+          "rightsList": [
+            "Das Recht auf Zugang – Sie haben das Recht, Kopien Ihrer personenbezogenen Daten anzufordern.",
+            "Das Recht auf Berichtigung – Sie haben das Recht, die Berichtigung von Informationen zu verlangen, die Sie für ungenau halten.",
+            "Das Recht auf Löschung – Sie haben das Recht, unter bestimmten Bedingungen die Löschung Ihrer personenbezogenen Daten zu verlangen.",
+            "Das Recht auf Einschränkung der Verarbeitung – Sie haben das Recht, unter bestimmten Bedingungen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
+            "Das Recht auf Datenübertragbarkeit – Sie haben das Recht, unter bestimmten Bedingungen die Übertragung der Daten, die wir gesammelt haben, an eine andere Organisation oder direkt an Sie zu verlangen."
+          ]
+        },
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "content": "Wenn Sie Fragen oder Bedenken bezüglich unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter: info@schoberle-industry.cz"
+        }
+      }
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "updatedAt": "Zuletzt aktualisiert: {{date}}",
+      "intro": "Willkommen auf der Website von Schöberle Industry. Diese Nutzungsbedingungen beschreiben die Regeln und Vorschriften für die Nutzung der Website von Schöberle Industry.",
+      "sections": {
+        "access": {
+          "title": "Zugang zur Website",
+          "content": "Indem Sie auf diese Website zugreifen, gehen wir davon aus, dass Sie diese Nutzungsbedingungen vollständig akzeptieren. Nutzen Sie die Website von Schöberle Industry nicht weiter, wenn Sie nicht mit allen auf dieser Seite angegebenen Nutzungsbedingungen einverstanden sind."
+        },
+        "intellectualProperty": {
+          "title": "Geistiges Eigentum",
+          "content": "Soweit nicht anders angegeben, besitzen Schöberle Industry und/oder seine Lizenzgeber die geistigen Eigentumsrechte für das gesamte Material auf Schöberle Industry. Alle geistigen Eigentumsrechte sind vorbehalten. Sie können auf Material von Schöberle Industry für Ihren eigenen persönlichen Gebrauch zugreifen, vorbehaltlich der in diesen Nutzungsbedingungen festgelegten Einschränkungen."
+        },
+        "restrictions": {
+          "title": "Einschränkungen",
+          "content": "Sie sind insbesondere von Folgendem ausgeschlossen:",
+          "restrictionsList": [
+            "Veröffentlichung von Material von Schöberle Industry",
+            "Verkauf, Vermietung oder Unterlizenzierung von Material von Schöberle Industry",
+            "Reproduktion, Vervielfältigung oder Kopieren von Material von Schöberle Industry",
+            "Weitergabe von Inhalten von Schöberle Industry"
+          ]
+        },
+        "userContent": {
+          "title": "Benutzerinhalte",
+          "content": "In bestimmten Bereichen dieser Website können Benutzer Meinungen und Informationen veröffentlichen und austauschen. Schöberle Industry filtert, bearbeitet, veröffentlicht oder überprüft Kommentare nicht vor ihrer Präsenz auf der Website. Kommentare spiegeln nicht die Ansichten und Meinungen von Schöberle Industry, seinen Vertretern und/oder verbundenen Unternehmen wider."
+        },
+        "liability": {
+          "title": "Haftung",
+          "content": "Die Materialien auf der Website von Schöberle Industry werden 'wie besehen' bereitgestellt. Schöberle Industry gibt keine Garantien, weder ausdrücklich noch stillschweigend, und lehnt hiermit alle anderen Garantien ab."
+        },
+        "links": {
+          "title": "Links zu Drittanbietern",
+          "content": "Unsere Website kann Links zu Websites Dritter enthalten, die nicht im Besitz oder unter der Kontrolle von Schöberle Industry stehen. Schöberle Industry hat keine Kontrolle über und übernimmt keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
+        },
+        "changes": {
+          "title": "Änderungen der Bedingungen",
+          "content": "Schöberle Industry behält sich das Recht vor, diese Nutzungsbedingungen für seine Website jederzeit nach eigenem Ermessen zu überarbeiten. Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, an die jeweils aktuelle Version dieser Nutzungsbedingungen gebunden zu sein."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "updatedAt": "Zuletzt aktualisiert: {{date}}",
+      "intro": "Dieses Dokument erklärt, wie Schöberle Industry Cookies und ähnliche Technologien verwendet, um Sie zu erkennen, wenn Sie unsere Website besuchen.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "Was sind Cookies",
+          "content": "Cookies sind kleine Datendateien, die auf Ihrem Computer oder mobilen Gerät platziert werden, wenn Sie eine Website besuchen. Cookies werden von Website-Betreibern weitgehend verwendet, um ihre Websites funktionsfähig zu machen oder effizienter zu arbeiten, sowie um Berichtsinformationen bereitzustellen."
+        },
+        "howWeUse": {
+          "title": "Wie wir Cookies verwenden",
+          "content": "Wir verwenden Cookies aus folgenden Gründen:",
+          "reasons": [
+            "Notwendige Cookies: Diese Cookies sind für den Betrieb unserer Website erforderlich. Sie umfassen beispielsweise Cookies, die es Ihnen ermöglichen, sich in sichere Bereiche unserer Website einzuloggen.",
+            "Analytische Cookies: Diese Cookies ermöglichen es uns, die Anzahl der Besucher zu erkennen und zu zählen und zu sehen, wie sich Besucher auf unserer Website bewegen, wenn sie diese nutzen. Dies hilft uns, die Funktionsweise unserer Website zu verbessern.",
+            "Funktionalitäts-Cookies: Diese Cookies werden verwendet, um Sie zu erkennen, wenn Sie auf unsere Website zurückkehren. Dies ermöglicht es uns, unsere Inhalte für Sie zu personalisieren, Sie mit Namen zu begrüßen und Ihre Präferenzen zu speichern.",
+            "Targeting-Cookies: Diese Cookies zeichnen Ihren Besuch auf unserer Website, die von Ihnen besuchten Seiten und die von Ihnen verfolgten Links auf. Wir werden diese Informationen verwenden, um unsere Website und die darauf angezeigten Werbeanzeigen relevanter für Ihre Interessen zu gestalten."
+          ]
+        },
+        "yourChoices": {
+          "title": "Ihre Auswahlmöglichkeiten bezüglich Cookies",
+          "content": "Sie haben die Möglichkeit, Cookies zu aktivieren oder zu deaktivieren, und dies können Sie durch Ändern der Einstellungen in Ihrem Browser tun. Beachten Sie, dass das Deaktivieren von Cookies Sie daran hindern kann, die volle Funktionalität dieser Website zu nutzen."
+        }
+      }
+    }
+  },
+  "common": {
+    "back_to_home": "Zurück zur Startseite",
+    "related_documents": "Ähnliche Dokumente"
   }
 } 
